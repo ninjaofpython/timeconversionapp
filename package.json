@@ -1,0 +1,22 @@
+{
+  "name": "eletim",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron main.js",
+    "package": "asar pack STimer.app/Contents/Resources/app STimer.app/Contents/Resources/app.asar",
+    "build": "electron-packager . STimer --ignore=node_modules/electron-*",
+    "pack": "build --dir",
+    "dist": "build"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron-packager": "^8.3.0",
+    "electron-prebuilt": "^0.25.2"
+  },
+  "dependencies": {
+    "electron-menus": "^0.1.0"
+  }
+}

@@ -1,0 +1,43 @@
+.radioGroup label {
+  display: inline-block;
+  margin: 0 0.2em;
+  text-align: center;
+}
+.radioGroup label input[type="radio"] {
+  margin: 0.5em auto;
+}
+
+body {
+    color: white;
+    background-color: #1287A8;
+}
+
+#yourName {
+    color: black;
+}
+#fname {
+    color: black;
+}
+#lname {
+    color: black;
+}
+#phone {
+    color: black;
+}
+#email {
+    color: black;
+}
+#inp1 {
+    color: black;
+}
+.button {
+    border-radius: 25px;
+    background-color: white; 
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}

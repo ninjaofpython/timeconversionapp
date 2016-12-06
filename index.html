@@ -1,0 +1,190 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Student Timer</title>
+    <script src="moment.js"></script>
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>  
+<link rel="stylesheet" type="text/css"  href="mystyle.css">
+</head>
+<body>
+    <center><h1>Timezone application for scheduling students</h1></center>
+   <form>
+    Your name: <input type="text" id="yourName"><br><br>
+    Student's first name: <input type="text" id="fname"><br><br>
+    Student's last name: <input type="text" id="lname"><br><br>
+    Student's phone number: <input type="text" id="phone"><br><br>
+    Student's email address: <input type="text" id="email"><br><br>
+    </form>
+    <script type="text/javascript">
+    function centralTime(){
+        var yName = document.getElementById("yourName").value;
+        var finame = document.getElementById("fname").value;
+        var laname = document.getElementById("lname").value;
+        var ph = document.getElementById("phone").value;
+        var em = document.getElementById("email").value;
+        var htmlDom = document.getElementById("inp1").value;
+        var m = htmlDom;
+        var dis = moment(m);
+        var disdis = dis.toString();
+        var n = moment(m).subtract(2, 'hours');
+        var forma = moment(m).format("LLLL");
+        var y = moment(n).format("LLLL");
+        alert("Hello" + " " + finame + ", " + "I have you scheduled for" + " " + forma + " " + "Central Standard Time." + " " + "I'll call you at this phone number" + " " + ph + "." + " " + "If anything changes or if there's a better number to reach you at, please reply to this email.  See you then." + "\n" + yName + "\n" + "Your Technical Support" + "\n" + "(Copy this to )" + "\n" + "\n" + "Calling" + " " + finame + " " + laname + " " + "on" + " " + y + " " + "Pacific Standard Time," + " " + "at this phone number" + " " + ph + "." + " "  + "This is the student's email:" + " " + em + " " + "to look them up in  and finalize their G suite implementation.(Copy this to a Google calendar entry.)");            
+       //
+        }        
+    </script>
+    <script type="text/javascript">
+    function easternTime(){
+        var yName = document.getElementById("yourName").value;
+        var finame = document.getElementById("fname").value;
+        var laname = document.getElementById("lname").value;
+        var ph = document.getElementById("phone").value;
+        var em = document.getElementById("email").value;
+        var htmlDom = document.getElementById("inp1").value;
+        var m = htmlDom;
+        var dis = moment(m);
+        var disdis = dis.toString();
+        var n = moment(m).subtract(3, 'hours');
+        var forma = moment(m).format("LLLL");
+        var y = moment(n).format("LLLL");
+        alert("Hello" + " " + finame + ", " + "I have you scheduled for" + " " + forma + " " + "Eastern Time." + " " + "I'll call you at this phone number" + " " + ph + "." + " " + "If anything changes or if there's a better number to reach you at, please reply to this email.  See you then." + "\n" + yName + "\n" + "Your Tech Support" + "\n" + "(Copy this to )" + "\n" + "\n" + "Calling" + " " + finame + " " + laname + " " + "on" + " " + y + " " + "Pacific Standard Time," + " " + "at this phone number" + " " + ph + "." + " "  + "This is the student's email:" + " " + em + " " + "to look them up in  and finalize their G suite implementation.(Copy this to a Google calendar entry.)");            
+       //
+        }        
+    </script>
+    <script type="text/javascript">
+    function arizonaTime(){
+        var yName = document.getElementById("yourName").value;
+        var finame = document.getElementById("fname").value;
+        var laname = document.getElementById("lname").value;
+        var ph = document.getElementById("phone").value;
+        var em = document.getElementById("email").value;
+        var htmlDom = document.getElementById("inp1").value;
+        var m = htmlDom;
+        var dis = moment(m);
+        var disdis = dis.toString();
+        var n = moment(m).subtract(1, 'hours');
+        var forma = moment(m).format("LLLL");
+        var y = moment(n).format("LLLL");
+        alert("Hello" + " " + finame + ", " + "I have you scheduled for" + " " + forma + " " + "Arizona time." + " " + "I'll call you at this phone number" + " " + ph + "." + " " + "If anything changes or if there's a better number to reach you at, please reply to this email.  See you then." + "\n" + yName + "\n" + "Your Tech Support" + "\n" + "(Copy this to )" + "\n" + "\n" + "Calling" + " " + finame + " " + laname + " " + "on" + " " + y + " " + "Pacific Standard Time," + " " + "at this phone number" + " " + ph + "." + " "  + "This is the student's email:" + " " + em + " " + "to look them up in  and finalize their G suite implementation.(Copy this to a Google calendar entry.)");            
+       //
+        }        
+    </script>
+    <script type="text/javascript">
+    function alaskaTime(){
+        var yName = document.getElementById("yourName").value;
+        var finame = document.getElementById("fname").value;
+        var laname = document.getElementById("lname").value;
+        var ph = document.getElementById("phone").value;
+        var em = document.getElementById("email").value;
+        var htmlDom = document.getElementById("inp1").value;
+        var m = htmlDom;
+        var dis = moment(m);
+        var disdis = dis.toString();
+        var n = moment(m).add(1, 'hours');
+        var forma = moment(m).format("LLLL");
+        var y = moment(n).format("LLLL");
+        alert("Hello" + " " + finame + ", " + "I have you scheduled for" + " " + forma + " " + "Alaska time." + " " + "I'll call you at this phone number" + " " + ph + "." + " " + "If anything changes or if there's a better number to reach you at, please reply to this email.  See you then." + "\n" + yName + "\n" + "Your Tech Support" + "\n" + "(Copy this to )" + "\n" + "\n" + "Calling" + " " + finame + " " + laname + " " + "on" + " " + y + " " + "Pacific Standard Time," + " " + "at this phone number" + " " + ph + "." + " "  + "This is the student's email:" + " " + em + " " + "to look them up in  and finalize their G suite implementation.(Copy this to a Google calendar entry.)");            
+       //
+        }        
+    </script>
+    <script type="text/javascript">
+    function hawaiiTime(){
+        var yName = document.getElementById("yourName").value;
+        var finame = document.getElementById("fname").value;
+        var laname = document.getElementById("lname").value;
+        var ph = document.getElementById("phone").value;
+        var em = document.getElementById("email").value;
+        var htmlDom = document.getElementById("inp1").value;
+        var m = htmlDom;
+        var dis = moment(m);
+        var disdis = dis.toString();
+        var n = moment(m).add(1, 'hours');
+        var forma = moment(m).format("LLLL");
+        var y = moment(n).format("LLLL");
+        alert("Hello" + " " + finame + ", " + "I have you scheduled for" + " " + forma + " " + "Hawaii time." + " " + "I'll call you at this phone number" + " " + ph + "." + " " + "If anything changes or if there's a better number to reach you at, please reply to this email.  See you then." + "\n" + yName + "\n" + "Your Tech Support" + "\n" + "(Copy this to )" + "\n" + "\n" + "Calling" + " " + finame + " " + laname + " " + "on" + " " + y + " " + "Pacific Standard Time," + " " + "at this phone number" + " " + ph + "." + " "  + "This is the student's email:" + " " + em + " " + "to look them up in  and finalize their G suite implementation.(Copy this to a Google calendar entry.)");            
+       //
+        }        
+    </script>
+    <script type="text/javascript">
+    function pstTime(){
+        var yName = document.getElementById("yourName").value;
+        var finame = document.getElementById("fname").value;
+        var laname = document.getElementById("lname").value;
+        var ph = document.getElementById("phone").value;
+        var em = document.getElementById("email").value;
+        var htmlDom = document.getElementById("inp1").value;
+        var m = htmlDom;
+        var dis = moment(m);
+        var disdis = dis.toString();
+        var n = moment(m);
+        var forma = moment(m).format("LLLL");
+        var y = moment(n).format("LLLL");
+        alert("Hello" + " " + finame + ", " + "I have you scheduled for" + " " + forma + " " + "Pacific Standard Time." + " " + "I'll call you at this phone number" + " " + ph + "." + " " + "If anything changes or if there's a better number to reach you at, please reply to this email.  See you then." + "\n" + yName + "\n" + "Your Tech Support" + "\n" + "(Copy this to )" + "\n" + "\n" + "Calling" + " " + finame + " " + laname + " " + "on" + " " + y + " " + "Pacific Standard Time," + " " + "at this phone number" + " " + ph + "." + " "  + "This is the student's email:" + " " + em + " " + "to look them up in  and finalize their G suite implementation.(Copy this to a Google calendar entry.)");            
+       //
+        }        
+    </script>
+    <script type="text/javascript">
+    function mstTime(){
+        var yName = document.getElementById("yourName").value;
+        var finame = document.getElementById("fname").value;
+        var laname = document.getElementById("lname").value;
+        var ph = document.getElementById("phone").value;
+        var em = document.getElementById("email").value;
+        var htmlDom = document.getElementById("inp1").value;
+        var m = htmlDom;
+        var dis = moment(m);
+        var disdis = dis.toString();
+        var n = moment(m).subtract(1, 'hours');
+        var forma = moment(m).format("LLLL");
+        var y = moment(n).format("LLLL");
+        alert("Hello" + " " + finame + ", " + "I have you scheduled for" + " " + forma + " " + "Mountain Standard Time." + " " + "I'll call you at this phone number" + " " + ph + "." + " " + "If anything changes or if there's a better number to reach you at, please reply to this email.  See you then." + "\n" + yName + "\n" + "Your Tech Support" + "\n" + "(Copy this to )" + "\n" + "\n" + "Calling" + " " + finame + " " + laname + " " + "on" + " " + y + " " + "Pacific Standard Time," + " " + "at this phone number" + " " + ph + "." + " "  + "This is the student's email:" + " " + em + " " + "to look them up in  and finalize their G suite implementation.(Copy this to a Google calendar entry.)");            
+       //
+        }        
+    </script>
+    
+    Select the meeting date and time according to student's timezone: <input type="datetime-local" id="inp1"/><br><br><br>
+    <center>
+    <h2>Choose the student's time zone</h2>
+    <div class="radioGroup">
+    <label for="Alaska">Alaska<br />
+    <input type="radio" name="radiobtn" onclick="alaskaTime();"/>    
+    </label>
+    <label for="Arizona">Arizona<br />
+    <input type="radio" name="radiobtn1" onclick="arizonaTime();"/> 
+    </label>
+    <label for="CST">Central<br />
+    <input type="radio" name="radiobtn1" onclick="centralTime();"/> 
+    </label>
+    <label for="EST">Eastern<br />
+    <input type="radio" name="radiobtn1" onclick="easternTime();"/> 
+    </label>
+    <label for="Hawaii">Hawaii<br />
+    <input type="radio" name="radiobtn1" onclick="hawaiiTime();"/> 
+    </label>
+    <label for="MST">Mountain<br />
+    <input type="radio" name="radiobtn1" onclick="mstTime();"/> 
+    </label>
+    <label for="PST">Pacific<br />
+    <input type="radio" name="radiobtn1" onclick="pstTime();"/> 
+    </label>        
+    </div>
+    <br>
+        
+    <input type="button" class="button" value="Reset Page" onClick="window.location.reload()">
+    </center>
+    
+    <!--
+    
+
+
+
+
+       
+
+
+
+</body>
+</html>
